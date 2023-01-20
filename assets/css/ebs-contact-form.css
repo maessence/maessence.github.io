@@ -53,3 +53,9 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
   border-radius: 0 !important;
 }
 
+@media (min-width:992px) {
+  .portfolio-item:hover .caption {
+    background-color: rgba(142,29,159,0.7019607843137254);
+  }
+}
+
